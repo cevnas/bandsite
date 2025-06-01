@@ -1,30 +1,24 @@
 export default function About() {
   const bandMembers = [
     {
-      name: "Alex Thunder",
+      name: "Brendan Ryans",
       role: "Lead Vocals & Guitar",
-      bio: "The driving force behind Naughtyy Bouyeez' sound, Alex brings heartfelt emotion and powerful vocals that cut through the noise.",
+      bio: "The driving force behind Naughtyy Bouyeez' sound, Brendan brings heartfelt emotion and powerful vocals that cut through the noise.",
       image: "🎸"
     },
     {
-      name: "Maya Storm",
-      role: "Bass Guitar",
-      bio: "Maya's thunderous bass lines form the backbone of our sound, creating the pulse that gets crowds moving.",
+      name: "Will",
+      role: "Lead Guitar",
+      bio: "Will's thunderous bass lines form the backbone of our sound, creating the pulse that gets crowds moving.",
       image: "🎵"
     },
     {
-      name: "Jake Lightning",
-      role: "Drums",
-      bio: "Jake's explosive drumming style creates the resonant energy that defines our live performances.",
-      image: "🥁"
-    },
-    {
-      name: "Sam Voltage",
-      role: "Lead Guitar",
-      bio: "Sam's resonant guitar melodies and innovative arrangements evoke the spirit of Newfoundland music.",
-      image: "⚡"
+      name: "Peter",
+      role: "Bass Guitar", 
+      bio: "Peter's guitar that gets crowds moving.",
+      image: "🎵"
     }
-  ];
+    ];
 
   return (
     <div className="relative">
